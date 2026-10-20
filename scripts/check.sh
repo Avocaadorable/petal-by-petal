@@ -18,6 +18,8 @@ if [[ ! -f project.godot ]]; then
 fi
 
 "$GODOT_BIN" --headless --path . --import
+"$GODOT_BIN" --headless --path . --check-only --script res://scripts/prototype.gd
+"$GODOT_BIN" --headless --path . --check-only --script res://scripts/paper_frame.gd
 if command -v gdlint >/dev/null 2>&1; then
   gdlint .
 fi
