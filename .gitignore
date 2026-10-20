@@ -2,6 +2,7 @@
 build/
 study/
 output/
+docs/screenshots/*.import
 docs/heartbeat/state.json
 docs/heartbeat/.sig
 *.tmp
